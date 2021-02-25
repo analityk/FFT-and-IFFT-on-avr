@@ -48,7 +48,8 @@ class complex{
 	};
 
 	T complex_abs(complex a){
-		return sqrt( pow(a.re, 2) + pow(a.im, 2));
+		//return sqrt( pow(a.re, 2) + pow(a.im, 2));
+		return hypot(a.re, a.im);
 	};
 
 };

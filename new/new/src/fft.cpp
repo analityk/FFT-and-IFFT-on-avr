@@ -24,9 +24,6 @@ void fft(uint8_t n, uint8_t m, float* x, float* y){
 	uint8_t i, j, k, n1, n2;
 	float c, s, e, a, t1, t2;
 
-	char str[20];
-	char u2s[20];
-
 	j = 0; /* bit-reverse */
 	n2 = n/2;
 	for(i=1; i<n - 1; i++){
